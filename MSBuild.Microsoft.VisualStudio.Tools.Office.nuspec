@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+	<metadata>
+		<id>MSBuild.Microsoft.VisualStudio.Tools.Office.targets</id>
+		<version>15.0.0</version>
+		<authors>Microsoft</authors>
+		<owners>Alexey Domrachev</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<projectUrl>https://github.com/alexey-domrachev/nuget-office-targets</projectUrl>
+		<description>MSBuild targets for OfficeTools that come with Visual Studio. Useful for build servers that do not have Visual Studio installed.</description>
+		<copyright>Copyright (C) Microsoft Corporation. All rights reserved.</copyright>
+		<tags>msbuild</tags>
+    </metadata>
+    <files>
+        <file src="Microsoft.VisualStudio.Tools.Office.targets" target="lib\net45\" />
+        <file src="Microsoft.VisualStudio.Tools.Office.BuildTasks.dll" target="lib\net45\" />
+        <file src="Microsoft.VisualStudio.Tools.Applications.BuildTasks.dll" target="lib\net45\" />
+    </files>
+</package>
