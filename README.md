@@ -10,7 +10,7 @@ The files are in the `tools\VSToolsPath` directory.
 
 ### NuGet
 
-Package name is `Microsoft.VisualStudio.Tools.Office.targets`
+Package name is `MSBuild.Microsoft.VisualStudio.Tools.Office.targets`
 https://www.nuget.org/packages/MSBuild.Microsoft.VisualStudio.Tools.Office.targets
 
 ## Use
