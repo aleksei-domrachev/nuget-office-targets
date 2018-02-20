@@ -11,9 +11,4 @@
 		<copyright>Copyright (C) Microsoft Corporation. All rights reserved.</copyright>
 		<tags>msbuild</tags>
     </metadata>
-    <files>
-        <file src="Microsoft.VisualStudio.Tools.Office.targets" target="lib\net45\" />
-        <file src="Microsoft.VisualStudio.Tools.Office.BuildTasks.dll" target="lib\net45\" />
-        <file src="Microsoft.VisualStudio.Tools.Applications.BuildTasks.dll" target="lib\net45\" />
-    </files>
 </package>
